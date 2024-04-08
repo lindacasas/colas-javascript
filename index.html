@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colas en JavaScript</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Ejercicios de Colas en JavaScript</h1>
+    <section class="general-container">
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Dividir una cola en dos</h3>
+            <form id="form-ex1">
+                <p class="container-data">
+                    Ingrese nombres de colores separados por comas:<br>
+                    <input type="text" id="ex1-input1" class="input-sty" oninput="validateInputText(this)" placeholder="amarillo, rosa, rojo, verde, azul">
+                </p>
+                <button class="btn btn-primary" id="btn-ex1" type="submit">Dividir cola</button>
+            </form>
+            <p class="result" id="result-ex1"></p>
+        </article>
+
+        <article class="container" id="exercise2">
+            <h3 class="exercise-title">Retirar usuarios sin ticket</h3>
+            <button class="btn btn-primary" id="btn-ex2">Retirar usuarios</button>
+            <p class="result" id="result-ex2"></p>
+        </article>
+    </section>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
